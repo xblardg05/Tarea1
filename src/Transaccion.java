@@ -8,6 +8,9 @@ public class Transaccion {
     private double monto;
     private String tipo;
 
+    public Transaccion() {
+    }
+
     /**
      * @param descripcion la razón de porqué se está realizando la transacción
      * @param numeroCuentaDestino esta es la cuenta destino de dónde se retira el dinero o dónde se deposita
